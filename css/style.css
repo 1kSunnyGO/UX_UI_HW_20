@@ -92,15 +92,14 @@ button:hover{
     color: white;
 }
 
+
 .caseInfo {
     width: 1200px;
-    background-color: aqua;
     margin: 0 auto;
 }
 
 .col-md-4 img {
-    width: 600px;
-    background-color: bisque;
+    width: 500px;
 }
 
 .caseContent {
