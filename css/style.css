@@ -1,0 +1,144 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+
+.mainNav {
+    width: 100%;
+    margin-bottom: 20px;
+    /*border-bottom: 4px solid rgb(255, 208, 179);*/
+}
+
+.topNav {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.navLogo {
+    display: flex;
+    margin: 20px auto;
+    padding: 5px;
+    width: 75px;
+    height: 75px;
+    /*border-right: 4px solid rgb(255, 208, 179);*/
+}
+
+
+.navLogo img {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.navContent {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+    /*border: 1px solid red;*/
+}
+
+.navContent ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navContent li {
+    display: inline;
+    float: left;
+}
+
+.navList {
+    /*background-color: bisque;*/
+    color: black;
+}
+
+.navList:hover {
+    background-color: rgb(33, 84, 202);
+    color: white;
+}
+
+.navContent a {
+    padding: 5px 20px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.contactButton {
+    background-color: white;
+    border: 1px solid rgb(33, 84, 202);
+    color: rgb(33, 84, 202);
+}
+
+.contactButton:hover {
+    background-color: rgb(33, 84, 202);
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+button:hover{
+    background-color: rgb(33, 84, 202);
+    cursor: pointer;
+    color: white;
+}
+
+.caseInfo {
+    width: 1200px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+.col-md-4 img {
+    width: 600px;
+    background-color: bisque;
+}
+
+.caseContent {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.caseNav {
+    position: fixed;
+    width: 180px;
+    margin-left: 20px;
+}
+
+.scrollspy-example {
+    width: 1200px;
+}
+
+.scrollspy-example h4 {
+    margin-bottom: 30px;
+}
+
+.scrollspy-example img {
+    width: 100%;
+}
+
+.govImg img{
+    display: inline;
+    width: 20%;
+}
+
+.scrollspy-example p {
+    width: 60%;
+}
+
+
+
+
+
+
+
+
